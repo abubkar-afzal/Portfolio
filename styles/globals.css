@@ -7,9 +7,24 @@
   ---bdwhite : #fffffffb;
   ---tw : #fffffffb;
   ---tlogo : #fe0202d0;
+  ---introtextofabubakar : #fe02aad0;
+  ---borderofcodeblock : #fffffffb; 
+  ---redcircleofcodeblock : #ff0000fb; 
+  ---pinkcircleofcodeblock : #fe02aad0; 
+  ---bluecircleofcodeblock : #3700fffb;
+  
 
 }
 
 body{
   background-color: var(---bddark);
+}
+.borderColor{
+  border-radius: 2rem;
+  border-image: conic-gradient(#fe02aad0,#fe02aad0, #ff0000fb,#fe02aad0, #fe02aad0, #3700fffb, #fe02aad0, #fe02aad0) 2;
+}
+.bg1{
+  background-image: url("../public/bg1.png");
+  background-repeat: no-repeat;
+  
 }
