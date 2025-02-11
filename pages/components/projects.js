@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const Projects = () => {
-    return(<><div className="justify-items-center mt-[4rem] bg1">
+    return(<><div className="justify-items-center mt-[4rem]  pb-[4rem]">
         <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem]">
           Projects
         </span>

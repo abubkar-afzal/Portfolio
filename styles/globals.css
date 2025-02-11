@@ -13,6 +13,11 @@
   ---redcircleofcodeblock: #ff0000fb;
   ---pinkcircleofcodeblock: #fe02aad0;
   ---bluecircleofcodeblock: #3700fffb;
+  ---wa: rgb(66, 213, 76);
+  ---em: rgb(104, 202, 211);
+  ---gh: rgb(0, 0, 0);
+  ---ig: rgb(233, 41, 134);
+  ---ln: rgb(24, 62, 214);
 }
 
 body {
@@ -122,4 +127,31 @@ body {
     transform: translateX(-60%);
   }
   
+}
+
+
+.neon-border-for-education {
+  padding: 10px 20px;
+  border: 2px solid #fe02aad0;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  transition: border-color 2s ease;
+}
+
+.neon-border-for-education:hover {
+  animation: neonGlowforeducation 2s infinite alternate;
+}
+
+@keyframes neonGlowforeducation {
+  0% {
+    box-shadow: 0 0 5px #fe02aad0, 0 0 20px #fe02aad0, 0 0 30px #fe02aad0,
+      0 0 40px #fe02aad0, 0 0 50px #fe02aad0;
+  }
+  100% {
+    box-shadow: 0 0 10px #fe02aad0, 0 0 20px #fe02aad0, 0 0 40px #fe02aad0,
+      0 0 80px #fe02aad0, 0 0 100px #fe02aad0;
+  }
 }

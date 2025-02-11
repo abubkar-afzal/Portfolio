@@ -109,12 +109,12 @@ const Skill = () => {
   ];
   return (
     <>
-      <div className="justify-items-center my-[4rem] ">
+      <div className="justify-items-center my-[4rem] bg1 p-[2rem]">
         <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem]">
           Skills
         </span>
         <div className="relative">
-        <div  className="my-[2rem] flex space-x-[20px]  overflow-x-hidden slideshow ">
+        <div  className="my-[1rem] mt-[4rem] flex space-x-[20px]  overflow-x-hidden slideshow ">
                 {
                     SkillsData.map((i)=>{
                         return(<>

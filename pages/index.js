@@ -6,8 +6,8 @@ import Experience from "./components/experience";
 import Skill from "./components/skill";
 import Projects from "./components/projects";
 import Education from "./components/education";
-import Blogs from "./components/blogs";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 export default function Home() {
     return(<>
     {/* all pages will render there */}
@@ -19,8 +19,8 @@ export default function Home() {
       <Skill/>
       <Projects/>
       <Education/>
-      <Blogs/>
       <Contact/>
+      <Footer/>
     </div>
     </>)
 }
