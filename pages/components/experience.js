@@ -8,23 +8,25 @@ const Experience = () => {
   return (
     <>
       <div className=" sm:justify-items-center pb-[4rem]">
-        <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem]">
+        <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem] t:text-[24px] l:text-[26px] ll:text-[28px]">
           Experience
         </span>
-        <div className="flex flex-col space-y-[2rem]">
-            <div></div>
+        <div className="flex flex-col space-y-[2rem] t:grid t:grid-flow-col t:auto-cols-2 t:grid-rows-1 t:gap-x-[1.5rem] t:mx-[2rem] t:items-center t:mt-[2rem] t:justify-between">
+            <div className="t:hidden"></div>
 
-          <div className="sm:text-center sm:justify-items-center bg1 ">
+          <div className="sm:text-center sm:justify-items-center bg1 t:col-start-1  ">
             <div>
               <Image
                 src={laptop}
                 alt="laptop"
-                width={200}
-                height={200}
-                className={`animated`}
+                width={1200}
+                height={1200}
+                className={`animated sm:w-[200px] t:w-[250px] l:w-[300px] ll:w-[400px] mx-auto mt-[1rem]`}
               />
             </div>
-            <div className=" sm:w-[90vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]">
+           
+          </div> <div className="t:col-start-2 space-y-[2rem]">
+          <div className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]">
               <div className="text-[---pinkcircleofcodeblock]">
                 (Jan 2022 - Present)
               </div>
@@ -33,14 +35,14 @@ const Experience = () => {
                   <FaChalkboardUser className="text-[---tw] text-[40px]" />
                 </div>
                 <div className=" text-left">
-                  <div className="text-[---tw] font-bold">SELF EMPLOYED</div>
+                  <div className="text-[---tw] font-bold text-[20px] underline">SELF EMPLOYED</div>
                   <div className="text-[---tw]  ">
                     Code and build something in everyday
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+           
           <div
             onClick={() => {
               showLabExp(!labExp);
@@ -51,7 +53,7 @@ const Experience = () => {
             onMouseLeave={() => {
                 showLabExp(false);
             }}
-            className=" sm:w-[90vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
+            className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
             <div className="text-[---pinkcircleofcodeblock]">(Jan 2022 - Present)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
@@ -102,7 +104,7 @@ const Experience = () => {
             onMouseLeave={() => {
                 showTecExp(false);
             }}
-            className=" sm:w-[90vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
+            className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
             <div className="text-[---pinkcircleofcodeblock]">(Jan 2022 - Present)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
@@ -143,7 +145,7 @@ const Experience = () => {
               </>
             ) : null}
           </div>
-        </div>
+        </div></div>
       </div>
     </>
   );

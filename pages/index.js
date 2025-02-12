@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 export default function Home() {
     return(<>
     {/* all pages will render there */}
-    <div >
+    <div className="overflow-x-hidden">
       <Navbar/>
       <Intro/>
       <About/>

@@ -58,7 +58,7 @@ const Skill = () => {
     },
     {
       id: 8,
-      skill: "MondoDB",
+      skill: "MongoDB",
       img: img7,
     },
     {
@@ -110,11 +110,11 @@ const Skill = () => {
   return (
     <>
       <div className="justify-items-center my-[4rem] bg1 p-[2rem]">
-        <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem]">
+        <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem] t:text-[24px] l:text-[26px] ll:text-[28px]">
           Skills
         </span>
         <div className="relative">
-        <div  className="my-[1rem] mt-[4rem] flex space-x-[20px]  overflow-x-hidden slideshow ">
+        <div  className="my-[1rem] p-[6rem] mt-[4rem] flex space-x-[30px] t:space-x-[50px]  overflow-x-hidden slideshow ">
                 {
                     SkillsData.map((i)=>{
                         return(<>
@@ -125,17 +125,17 @@ const Skill = () => {
                               onMouseLeave={() => {
                                 setLoop(true);
                               }}
-                              className="w-[10rem] h-[10rem] bg-[---labelbg] flex flex-col overflow-hidden justify-items-center items-center rounded-[10px] p-2 cursor-pointer hover:scale-[1.2] duration-[2s]"
+                              className="w-[10rem] h-[10rem] t:w-[13rem] t:h-[13rem] ll:w-[15rem] ll:h-[15rem] bg-[---labelbg] flex flex-col overflow-hidden justify-items-center items-center rounded-[10px] p-2 cursor-pointer neon-border duration-[2s]"
                             ><div className="w-[10rem] h-[7rem] justify-items-center place-content-center">
                             <Image
                               src={i.img}
                               alt="skillLogo"
-                              width={90}
-                              height={90}
-                              className="DropShadow"
+                              width={190}
+                              height={190}
+                              className="DropShadow sm:w-[90px] sm:h-[90px] t:w-[120px] t:h-[120px] l:w-[150px] l:h-[150px] ll:w-[170px] ll:h-[170px] "
                             />
                           </div>
-                          <span className="text-[1rem] text-[---tw]">{i.skill}</span>
+                          <span className="text-[1rem] t:text-[20px] t:mt-[1rem] l:mt-[3rem] ll:mt-[5rem] text-[---tw]">{i.skill}</span>
                         </div>
                         </>
                           )
