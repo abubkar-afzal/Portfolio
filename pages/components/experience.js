@@ -7,7 +7,7 @@ const Experience = () => {
     const [tecExp, showTecExp] = useState(false);
   return (
     <>
-      <div className=" sm:justify-items-center pb-[4rem]">
+      <div id="experience" className=" sm:justify-items-center pb-[4rem]">
         <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem] t:text-[24px] l:text-[26px] ll:text-[28px]">
           Experience
         </span>
@@ -27,15 +27,15 @@ const Experience = () => {
            
           </div> <div className="t:col-start-2 space-y-[2rem]">
           <div className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]">
-              <div className="text-[---pinkcircleofcodeblock]">
+              <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">
                 (Jan 2022 - Present)
               </div>
               <div className="flex space-x-[2rem] items-center mt-[1rem]">
                 <div>
-                  <FaChalkboardUser className="text-[---tw] text-[40px]" />
+                  <FaChalkboardUser className="text-[---tw] text-[40px] ll:text-[45px]" />
                 </div>
                 <div className=" text-left">
-                  <div className="text-[---tw] font-bold text-[20px] underline">SELF EMPLOYED</div>
+                  <div className="text-[---tw] font-bold text-[20px] ll:text-[25px] underline">SELF EMPLOYED</div>
                   <div className="text-[---tw]  ">
                     Code and build something in everyday
                   </div>
@@ -47,24 +47,19 @@ const Experience = () => {
             onClick={() => {
               showLabExp(!labExp);
             }}
-            onMouseEnter={() => {
-                showLabExp(true);
-            }}
-            onMouseLeave={() => {
-                showLabExp(false);
-            }}
+           
             className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
-            <div className="text-[---pinkcircleofcodeblock]">(Jan 2022 - Present)</div>
+            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(Jan 2022 - Present)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
               <div>
-                <FaChalkboardUser className="text-[---tw] text-[40px]" />
+                <FaChalkboardUser className="text-[---tw] text-[40px] ll:text-[45px]" />
               </div>
               <div className=" text-left">
-                <div className="text-[---tw] font-bold text-[20px] underline">
+                <div className="text-[---tw] font-bold text-[20px] ll:text-[25px] underline">
                  Computer Lab Assisstant
                 </div>
-                <div className="text-[---tw] text-[14px] my-2">
+                <div className="text-[---tw] text-[14px] ll:text-[16px] my-2">
                 Heaven Of Education, Amir Road, Lahore 
                 </div>
               </div>
@@ -84,7 +79,7 @@ const Experience = () => {
                     />
                   </div>
                   <div>
-                    <span className="text-[---tw]">
+                    <span className="text-[---tw] ll:text-[18px]">
                       My Intermediate Is Not Completed Right Now. I Give The 1st
                       Year Exams And It&apos;s Result Is There. I Also Give The
                       2nd Year Exams And It&apos;s Result Is Still Pending.
@@ -98,24 +93,19 @@ const Experience = () => {
             onClick={() => {
               showTecExp(!tecExp);
             }}
-            onMouseEnter={() => {
-                showTecExp(true);
-            }}
-            onMouseLeave={() => {
-                showTecExp(false);
-            }}
+           
             className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
-            <div className="text-[---pinkcircleofcodeblock]">(Jan 2022 - Present)</div>
+            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(Jan 2022 - Present)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
               <div>
-                <FaChalkboardUser className="text-[---tw] text-[40px]" />
+                <FaChalkboardUser className="text-[---tw] text-[40px] ll:text-[45px]" />
               </div>
               <div className=" text-left">
-                <div className="text-[---tw] font-bold text-[20px] underline">
+                <div className="text-[---tw] font-bold text-[20px] ll:text-[25px] underline">
                  PC Technician 
                 </div>
-                <div className="text-[---tw] text-[14px] my-2">
+                <div className="text-[---tw] text-[14px] ll:text-[16px] my-2">
                 Younis Center, Hall Road, Lahore 
                 </div>
               </div>
@@ -135,7 +125,7 @@ const Experience = () => {
                     />
                   </div>
                   <div>
-                    <span className="text-[---tw]">
+                    <span className="text-[---tw] ll:text-[18px]">
                       My Intermediate Is Not Completed Right Now. I Give The 1st
                       Year Exams And It&apos;s Result Is There. I Also Give The
                       2nd Year Exams And It&apos;s Result Is Still Pending.

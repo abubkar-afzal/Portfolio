@@ -1,8 +1,12 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 import Home from ".";
+import { FaArrowAltCircleUp } from "react-icons/fa";
 
 export default function App({ Component, pageProps }) {
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return(
     <>
     
@@ -25,6 +29,9 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="" />
         <title>Portfolio Of Abubakar Afzal - Web Developer</title>
       </Head>
+      <div className="fixed z-10 bottom-0 right-0 p-4">
+        <FaArrowAltCircleUp onClick={handleScrollToTop} className="opacity-[40%] sm:text-[2rem] text-[3rem] text-[---tw] cursor-pointer hover:scale-[1.2] duration-[2s]"/>
+      </div>
       <Home/>
       </>
   )

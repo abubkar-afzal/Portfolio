@@ -5,7 +5,7 @@ import img1 from "../../public/introBlock.png";
 const About = () => {
   return (
     <>
-      <div className="sm:text-center sm:justify-items-center sm:space-y-[2rem] mx-5 mb-[2rem]  mt-[4rem]">
+      <div id="about" className="sm:text-center sm:justify-items-center sm:space-y-[2rem] mx-5 mb-[2rem]  mt-[4rem] ">
         <span className="text-[---bluecircleofcodeblock] bg-[---labelbg] text-[18px] font-bold p-2 rounded-[10px] px-[1rem] t:text-[24px] l:text-[26px] ll:text-[28px]">
           About Me
         </span>   </div>
@@ -23,7 +23,7 @@ const About = () => {
             <div className="text-[---tlogo] font-black sm:my-2 sm:text-[20px] t:text-[24px] l:text-[30px] ll:text-[40px]">
               WHO I Am?
             </div>
-            <div className="text-[---tw] t:text-[16px] l:text-[18px] ll:text-[20px] ">
+            <div className="text-[---tw] t:text-[16px] l:text-[18px] ll:text-[20px] mr-[2rem] ">
               My name is Abubakar Afzal. I am a web developer. I am a quick
               learner with a self-learning attitude. I love to learn and explore
               new technologies and am passionate about problem-solving. I love
