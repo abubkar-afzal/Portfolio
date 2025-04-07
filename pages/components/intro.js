@@ -57,7 +57,7 @@ const Intro = () => {
               I&rsquo;m a{" "} <br className="t:hidden"/>
               <span className="text-[---tlogo] sm:text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px]  font-black  ">
                 <ReactTyped
-                  strings={["Web Developer ", "Web Designer "]}
+                  strings={["Full Stack Developer"]}
                   typeSpeed={150}
                   backSpeed={70}
                   loop
@@ -67,21 +67,21 @@ const Intro = () => {
           </div>
 
           <div className="flex space-x-4 mt-[1rem] t:mt-[2rem] t:justify-start t:ml-[16px] justify-center">
-            <Link href={`https://github.com/abubkar-afzal`}>
+            <Link href={`https://github.com/abubkar-afzal`} target="_blank">
               <FaGithub className="text-[---pinkcircleofcodeblock] text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px] cursor-pointer hover:scale-[1.2] hover:text-[---gh] DropShadow duration-[0.5s]" />
             </Link>
             <Link
               href={`https://www.instagram.com/mr.syco.1?igsh=MWdmYXlsamozMDd0dw==`}
-            >
+              target="_blank">
               <AiFillInstagram className="text-[---pinkcircleofcodeblock] text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px] cursor-pointer hover:scale-[1.2] hover:text-[---ig] DropShadow duration-[0.5s]" />
             </Link>
             <Link
               href={`https://wa.me/send?phone=923270972423&text=How Can I Surve You ?`}
-            >
+              target="_blank">
               {" "}
               <IoLogoWhatsapp className="text-[---pinkcircleofcodeblock] text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px] cursor-pointer hover:scale-[1.2] hover:text-[---wa] DropShadow duration-[0.5s]" />{" "}
             </Link>
-            <Link href={`/`}>
+            <Link href={`https://www.linkedin.com/in/hafiz-abubakar-afzal-b77a46354/`} target="_blank">
               <FaLinkedin className="text-[---pinkcircleofcodeblock] text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px] cursor-pointer hover:scale-[1.2] hover:text-[---ln] DropShadow duration-[0.5s]" />
             </Link>
           </div>

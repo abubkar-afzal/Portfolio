@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import { RxDropdownMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
@@ -15,8 +16,8 @@ const Navbar = () => {
         {/* small screen */}
         <div className=" t:hidden mx-[1rem]">
             <div className="flex sm:justify-between sm:py-4 ">
-                
-                    <a onClick={() => scrollToSection('intro')} className="text-[---tlogo] sm:text-[18px] t:text-[22px] cursor-pointer font-bold ">ABUBAKAR AFZAL</a>
+                    
+                    <div onClick={() => scrollToSection('intro')} className="text-[---tlogo] sm:text-[18px] t:text-[22px] cursor-pointer font-bold flex flex-row "><div><Image src={"/mypic.png"} alt="Img" width={25} height={25} className="rounded-[2rem] mx-2" /></div><p>ABUBAKAR AFZAL</p></div>
                     <div className="place-items-end flex flex-col sm:text-[14px] space-y-2 mt-[-10px] ">
                         <a></a>
                         <div className="flex flex-col items-center  sm:text-[14px]  space-y-2">
@@ -40,7 +41,7 @@ const Navbar = () => {
         <div className="t:block t:mx-4 sm:hidden">
             <nav className="t:flex t:justify-between t:items-center t:py-4 ">
                 
-                    <a onClick={() => scrollToSection('intro')} className="text-[---tlogo] t:text-[22px] l:text-[24px] ll:text-[28px] cursor-pointer font-bold ">ABUBAKAR AFZAL</a>
+                    <div onClick={() => scrollToSection('intro')} className="text-[---tlogo] t:text-[22px] l:text-[24px] ll:text-[28px] cursor-pointer font-bold flex items-center flex-row"><div><Image src={"/mypic.png"} alt="Img" width={30} height={30} className="rounded-[2rem] mx-2" /></div><p>ABUBAKAR AFZAL</p></div>
                     <div className="t:space-x-[2rem]">
                     <a onClick={() => scrollToSection('about')} className="text-[---tw] cursor-pointer hover:text-[---pinkcircleofcodeblock] t:text-[15px] l:text-[20px] ll:text-[23px]">About</a>
                     <a onClick={() => scrollToSection('projects')} className="text-[---tw] cursor-pointer hover:text-[---pinkcircleofcodeblock] t:text-[15px] l:text-[20px] ll:text-[23px]">Projects</a>

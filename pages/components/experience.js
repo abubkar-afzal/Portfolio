@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import laptop from "../../public/laptop.svg";
+import lab from "../../public/experience.jpg";
 import { FaChalkboardUser } from "react-icons/fa6";
 const Experience = () => {
     const [labExp, showLabExp] = useState(false);
@@ -28,7 +29,7 @@ const Experience = () => {
           </div> <div className="t:col-start-2 space-y-[2rem]">
           <div className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]">
               <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">
-                (Jan 2022 - Present)
+                (Jan 2023 - Present)
               </div>
               <div className="flex space-x-[2rem] items-center mt-[1rem]">
                 <div>
@@ -50,7 +51,7 @@ const Experience = () => {
            
             className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
-            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(Jan 2022 - Present)</div>
+            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(March 2023 - August 2023)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
               <div>
                 <FaChalkboardUser className="text-[---tw] text-[40px] ll:text-[45px]" />
@@ -62,6 +63,12 @@ const Experience = () => {
                 <div className="text-[---tw] text-[14px] ll:text-[16px] my-2">
                 Heaven Of Education, Amir Road, Lahore 
                 </div>
+                {
+                  labExp ? null:<div className="text-[---bluecircleofcodeblock] text-[14px] ll:text-[16px] my-2">
+                  See More ...!!
+                  </div>
+                }
+                
               </div>
             </div>
 
@@ -71,7 +78,7 @@ const Experience = () => {
                 <div className="justify-items-center text-center px-4">
                   <div>
                     <Image
-                      src={laptop}
+                      src={lab}
                       alt="Degree Image"
                       width={200}
                       height={200}
@@ -80,9 +87,7 @@ const Experience = () => {
                   </div>
                   <div>
                     <span className="text-[---tw] ll:text-[18px]">
-                      My Intermediate Is Not Completed Right Now. I Give The 1st
-                      Year Exams And It&apos;s Result Is There. I Also Give The
-                      2nd Year Exams And It&apos;s Result Is Still Pending.
+                       I am responsible for maintaining the computer lab and assisting students with their computer-related issues. I also work on various projects and assignments related to computer science. I have gained valuable experience in troubleshooting hardware and software issues, as well as providing technical support to students and faculty members.
                     </span>
                   </div>
                 </div>
@@ -96,7 +101,7 @@ const Experience = () => {
            
             className=" sm:w-[90vw] t:w-[50vw] items-center space-x-2 text-center p-2 cursor-pointer border-[0.1px] rounded-[2rem] mb-[1rem] py-4 hover:scale-[1.04] neon-border-for-experince duration-[1s] bg-[---labelbg]"
           >
-            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(Jan 2022 - Present)</div>
+            <div className="text-[---pinkcircleofcodeblock] ll:text-[18px]">(Jan 2022 - Jan 2023)</div>
             <div className="flex space-x-[2rem] items-center mt-[1rem]">
               <div>
                 <FaChalkboardUser className="text-[---tw] text-[40px] ll:text-[45px]" />
@@ -111,29 +116,7 @@ const Experience = () => {
               </div>
             </div>
 
-            {tecExp ? (
-              <>
-                <hr className="mt-[2rem]" />
-                <div className="justify-items-center text-center px-4">
-                  <div>
-                    <Image
-                      src={laptop}
-                      alt="Degree Image"
-                      width={200}
-                      height={200}
-                      className=""
-                    />
-                  </div>
-                  <div>
-                    <span className="text-[---tw] ll:text-[18px]">
-                      My Intermediate Is Not Completed Right Now. I Give The 1st
-                      Year Exams And It&apos;s Result Is There. I Also Give The
-                      2nd Year Exams And It&apos;s Result Is Still Pending.
-                    </span>
-                  </div>
-                </div>
-              </>
-            ) : null}
+           
           </div>
         </div></div>
       </div>

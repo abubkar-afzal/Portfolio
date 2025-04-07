@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import img1 from "../../public/introBlock.png";
+import img1 from "../../public/mypic.png";
 
 const About = () => {
   return (
@@ -24,11 +24,11 @@ const About = () => {
               WHO I Am?
             </div>
             <div className="text-[---tw] t:text-[16px] l:text-[18px] ll:text-[20px] mr-[2rem] ">
-              My name is Abubakar Afzal. I am a web developer. I am a quick
+              My name is Abubakar Afzal. I am a Full Stack Developer. I am a quick
               learner with a self-learning attitude. I love to learn and explore
               new technologies and am passionate about problem-solving. I love
-              almost all the stacks of web application development and love to
-              make the web more open to the world. My core skills is based on
+              almost all the stacks of application development and love to
+              make the websites and application. My core skills is based on
               JavaScript and I love to do most of the things using JavaScript. I
               am available for any kind of job opportunity that suits my skills
               and interests.

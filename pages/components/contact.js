@@ -18,29 +18,29 @@ const Contact = () => {
           
             <br />
             <div  className="t:flex t:flex-wrap t:place-content-center t:space-x-[2rem] ll:flex-col ll:place-content-center ll:space-x-0">
-          <Link href={`https://wa.me/send?phone=923270972423&text=How Can I Surve You ?`}>
+          <Link href={`https://wa.me/send?phone=923270972423&text=How Can I Surve You ?`} target="_blank">
             <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline sm:text-[---tw] DropShadow hover:text-[---wa]">
              <IoLogoWhatsapp className="sm:text-[22px] ll:text-[25px] mr-2"/> +923270972423
             </span><br/></Link>
-            <Link href={`mailto:hafizabubakarafzal@gmail.com`}>
+            <Link href={`mailto:hafizabubakarafzal@gmail.com`} target="_blank">
             <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline sm:text-[---tw] DropShadow hover:text-[---em]">
              <MdOutgoingMail className="sm:text-[22px] ll:text-[25px] mr-2"/> hafizabubakarafzal@gmail.com
             </span><br/></Link>
-            <Link href={`https://github.com/abubkar-afzal`}>
+            <Link href={`https://github.com/abubkar-afzal`} target="_blank">
             
             <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline  sm:text-[---tw] DropShadow hover:text-[---gh]">
               <SiGithub className="sm:text-[22px] ll:text-[25px] mr-2"/>GitHub
             </span><br/></Link>
-            <Link href={`https://www.instagram.com/mr.syco.1?igsh=MWdmYXlsamozMDd0dw==`}>
+            <Link href={`https://www.instagram.com/mr.syco.1?igsh=MWdmYXlsamozMDd0dw==`} target="_blank">
 
             <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline sm:text-[---tw] DropShadow hover:text-[---ig]">
              <RiInstagramFill className="sm:text-[22px] ll:text-[25px] mr-2"/> Instagram
             </span><br/></Link>
-            {/* <Link href={`/`}>
+            <Link href={`https://www.linkedin.com/in/hafiz-abubakar-afzal-b77a46354/`} target="_blank">
 
-            <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline sm:text-[---tw] hover:text-[---ln]">
-              <FaLinkedin className="sm:text-[22px] ll:text-[25px] mr-2"/>Linkedin
-            </span><br/></Link> */}
+            <span  className="sm:flex px-2 ll:text-[20px] sm:hover:underline sm:text-[---tw] hover:text-[---ln] DropShadow">
+              <FaLinkedin className="sm:text-[22px] ll:text-[25px] mr-2 "/>Linkedin
+            </span><br/></Link>
             </div>
           </div>
         </div>
