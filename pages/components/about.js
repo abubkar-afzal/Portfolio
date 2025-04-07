@@ -24,7 +24,7 @@ const About = () => {
               WHO I Am?
             </div>
             <div className="text-[---tw] t:text-[16px] l:text-[18px] ll:text-[20px] mr-[2rem] ">
-              My name is Abubakar Afzal. I am a Full Stack Developer. I am a quick
+              My name is Hafiz Abubakar Afzal. I am a Full Stack Developer. I am a quick
               learner with a self-learning attitude. I love to learn and explore
               new technologies and am passionate about problem-solving. I love
               almost all the stacks of application development and love to

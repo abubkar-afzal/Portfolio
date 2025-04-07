@@ -148,7 +148,7 @@ const Education = () => {
                   Hafiz e Quran
                 </div>
                 <div className="text-[---tw] text-[14px] ll:text-[18px] my-2">
-                  Jamaya Ghosiya Rehman Bazar ,Gawalmandi ,Lahore
+                  Jamaiya Gosia Anwaar-e-Islam Rehman Bazar ,Gawalmandi ,Lahore
                 </div>
                 {
                   hafizData ? null:<div className="text-[---pinkcircleofcodeblock] text-[14px] ll:text-[16px] my-2">

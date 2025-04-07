@@ -48,7 +48,7 @@ const Intro = () => {
             <span className="text-[---tw] sm:text-[28px] t:text-[32px] l:text-[40px] ll:text-[50px]  font-black  ">
               This Is{" "}
               <a className="text-[---introtextofabubakar] sm:text-[28px]  t:text-[32px] l:text-[40px] ll:text-[50px] font-black  cursor-pointer ">
-                Abubakar Afzal
+               Hafiz Abubakar Afzal
               </a>
               ,{" "}
             </span>

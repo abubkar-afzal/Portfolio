@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className=" t:hidden mx-[1rem]">
             <div className="flex sm:justify-between sm:py-4 ">
                     
-                    <div onClick={() => scrollToSection('intro')} className="text-[---tlogo] sm:text-[18px] t:text-[22px] cursor-pointer font-bold flex flex-row "><div><Image src={"/mypic.png"} alt="Img" width={25} height={25} className="rounded-[2rem] mx-2" /></div><p>ABUBAKAR AFZAL</p></div>
+                    <div onClick={() => scrollToSection('intro')} className="text-[---tlogo] sm:text-[18px] t:text-[22px] cursor-pointer font-bold flex flex-row "><div><Image src={"/mypic.png"} alt="Img" width={25} height={25} className="rounded-[2rem] mx-2" /></div><p>ABUBAKAR</p></div>
                     <div className="place-items-end flex flex-col sm:text-[14px] space-y-2 mt-[-10px] ">
                         <a></a>
                         <div className="flex flex-col items-center  sm:text-[14px]  space-y-2">
